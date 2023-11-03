@@ -55,7 +55,7 @@ async def getmedia(bot, update):
     medianame = DOWNLOAD_LOCATION + str(update.from_user.id)
     try:
         message = await update.reply_text(
-            text="`Processing...`",
+            text="`ᴘʀᴏᴄᴇꜱꜱɪɴɢ...`",
             quote=True,
             disable_web_page_preview=True
         )
@@ -83,8 +83,8 @@ async def getmedia(bot, update):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="Open Link", url=f"https://telegra.ph{response[0]}"),
-                InlineKeyboardButton(text="Share Link", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
+                InlineKeyboardButton(text="ᴏᴘᴇɴ ʟɪɴᴋ 🛡️", url=f"https://telegra.ph{response[0]}"),
+                InlineKeyboardButton(text="ꜱʜᴇʀᴇ ʟɪɴᴋ 🗡️", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
             ]
         ]
     )
