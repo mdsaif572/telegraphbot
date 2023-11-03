@@ -45,7 +45,7 @@ async def start(bot, update):
     # Send the start photo with caption
     await bot.send_photo(
         chat_id=update.chat.id,
-        photo="https://graph.org/file/50319ca29329595238b54.jpg",  # Replace with the URL of your start photo
+        photo="https://graph.org/file/24297757645fd9e66203e.jpg",
         caption=START_TEXT.format(update.from_user.mention) + "\n\n" + START_CAPTION,
         reply_markup=START_BUTTONS
     )
