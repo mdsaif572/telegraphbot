@@ -13,12 +13,13 @@ Bot = Client(
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 
 
-START_CAPTION = """Hello {}👋,
-I am TeleGraph Bot 
+START_CAPTION = """*ʜᴇʏ* {}, 🥀
+*๏ ᴛʜɪs ɪs* {} !
 
-send any below 5mb photo/video to get telegraph link
+➻ ꜱᴇɴᴅ ᴀɴʏ ʙᴇʟᴏᴡ 5ᴍʙ ᴘʜᴏᴛᴏ/ᴠɪᴅᴇᴏ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ 
 
-Thanks by 💞 @Privates_RoBot"""
+──────────────────
+๏ ᴛʜᴀɴᴋꜱ ʙʏ 💞 @ᴘʀɪᴠᴀᴛᴇꜱ_ʀᴏʙᴏᴛ"""
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
