@@ -1,0 +1,25 @@
+{
+    "name": "𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃",
+    "description": "⚡",
+    "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
+    "keywords": ["𝚁𝙾𝙻𝙴𝚇", "𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃"],
+    "repository": "https://github.com/AnonymousX0408/TelegraphBot",
+  "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "ɢᴇᴛ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ғʀᴏᴍ @ʙᴏᴛғᴀᴛʜᴇʀ ɪɴ ᴛɢ",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "ɢᴇᴛ ᴛʜɪs ᴠᴀʀɪᴀʙʟᴇ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
+            "required": true,
+            "value": ""
+        },
+        "API_ID": {
+            "description": "ғɪʟʟ ᴀᴘɪ ɪᴅ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ.ᴏʀɢ",
+            "required": true,
+            "value": ""
+        }
+
+    }
+}
