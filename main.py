@@ -139,7 +139,7 @@ async def getmedia(bot, update):
         )
         return
     
-    text=f"**Link :-** `https://telegra.ph{response[0]}`\n\n**Join :-** @synaxnetwork"
+    text=f"**Link :-** `https://telegra.ph{response[0]}`\n\n**Join :-** @Privates_RoBot"
     reply_markup=InlineKeyboardMarkup(
         [
             [
