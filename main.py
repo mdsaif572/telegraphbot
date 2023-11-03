@@ -12,7 +12,6 @@ Bot = Client(
 
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 
-
 START_CAPTION = """*ʜᴇʏ* {}, 🥀
 *๏ ᴛʜɪs ɪs* {} !
 
@@ -33,7 +32,7 @@ START_BUTTONS = InlineKeyboardMarkup(
 async def cb_data(bot, update):
     if update.data == "home":
         await update.message.edit_text(
-            text=START_TEXT.format(update.from_user.mention),
+            text=START_CAPTION,
             disable_web_page_preview=True,
             reply_markup=START_BUTTONS
         )
@@ -46,7 +45,7 @@ async def start(bot, update):
     await bot.send_photo(
         chat_id=update.chat.id,
         photo="https://graph.org/file/24297757645fd9e66203e.jpg",
-        caption=START_TEXT.format(update.from_user.mention) + "\n\n" + START_CAPTION,
+        caption=START_CAPTION.format(update.from_user.mention, "TeleGraph Bot"),
         reply_markup=START_BUTTONS
     )
 
@@ -95,4 +94,3 @@ async def getmedia(bot, update):
     )
 
 Bot.run()
-            
