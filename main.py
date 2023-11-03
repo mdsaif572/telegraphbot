@@ -12,8 +12,8 @@ Bot = Client(
 
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 
-START_CAPTION = """*ʜᴇʏ* {}, 🥀
-*๏ ᴛʜɪs ɪs* {} !
+START_CAPTION = """ʜᴇʏ {}, 🥀
+๏ ᴛʜɪs ɪs {} !
 
 ➻ ꜱᴇɴᴅ ᴀɴʏ ʙᴇʟᴏᴡ 5ᴍʙ ᴘʜᴏᴛᴏ/ᴠɪᴅᴇᴏ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ 
 
