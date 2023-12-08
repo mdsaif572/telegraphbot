@@ -3,7 +3,7 @@
     "description": "⚡",
     "logo": "https://telegra.ph/file/bc9699c365f82b7ca0f32.jpg",
     "keywords": ["𝚁𝙾𝙻𝙴𝚇", "𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙱𝙾𝚃"],
-    "repository": "https://github.com/AnonymousX0408/TelegraphBot",
+    "repository": "https://github.com/mdsaif572/telegraphbot",
   "stack": "container",
     "env": {
         "BOT_TOKEN": {
@@ -22,4 +22,16 @@
         }
 
     }
+}
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
 }
